@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">BeautyApp</string>
+    
+    <!-- Login -->
+    <string name="login_title">Iniciar Sesión</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="login_button">Iniciar Sesión</string>
+    <string name="register_link">¿No tienes cuenta? Regístrate</string>
+    <string name="login_error">Error al iniciar sesión</string>
+    <string name="invalid_credentials">Credenciales inválidas</string>
+    
+    <!-- Register -->
+    <string name="register_title">Registro</string>
+    <string name="name">Nombre</string>
+    <string name="phone">Teléfono</string>
+    <string name="role">Rol</string>
+    <string name="register_button">Registrarse</string>
+    <string name="back_to_login">Volver al inicio de sesión</string>
+    <string name="register_success">Registro exitoso</string>
+    <string name="register_error">Error al registrar</string>
+    <string name="email_exists">El correo ya está registrado</string>
+    
+    <!-- Roles -->
+    <string name="role_admin">Administrador</string>
+    <string name="role_employee">Empleado</string>
+    <string name="role_client">Cliente</string>
+    
+    <!-- Dashboards -->
+    <string name="admin_dashboard">Panel de Administrador</string>
+    <string name="employee_dashboard">Panel de Empleado</string>
+    <string name="client_dashboard">Panel de Cliente</string>
+    <string name="my_appointments">Mis Citas</string>
+    <string name="services">Servicios</string>
+    <string name="users">Usuarios</string>
+    <string name="appointments">Citas</string>
+    <string name="daily_schedule">Agenda Diaria</string>
+    <string name="book_appointment">Reservar Cita</string>
+    <string name="available_services">Servicios Disponibles</string>
+    <string name="upcoming_appointments">Próximas Citas</string>
+    <string name="no_upcoming_appointments">No hay citas próximas para mostrar.</string>
+    <string name="no_client_appointments">De momento no hay citas para mostrar.</string>
+    <string name="logout">Cerrar Sesión</string>
+    
+    <!-- Services -->
+    <string name="services_title">Servicios</string>
+    <string name="add_service">Agregar Servicio</string>
+    <string name="edit_service">Editar Servicio</string>
+    <string name="service_name">Nombre del Servicio</string>
+    <string name="service_description">Descripción</string>
+    <string name="service_price">Precio</string>
+    <string name="service_duration">Duración (minutos)</string>
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Eliminar</string>
+    <string name="service_saved">Servicio guardado</string>
+    <string name="service_deleted">Servicio eliminado</string>
+    
+    <!-- Appointments -->
+    <string name="appointments_title">Citas</string>
+    <string name="appointment_detail">Detalle de Cita</string>
+    <string name="create_appointment">Crear Cita</string>
+    <string name="edit_appointment">Editar Cita</string>
+    <string name="appointment_date">Fecha</string>
+    <string name="appointment_time">Hora</string>
+    <string name="appointment_status">Estado</string>
+    <string name="select_service">Seleccionar Servicio</string>
+    <string name="select_client">Seleccionar Cliente</string>
+    <string name="select_employee">Seleccionar Empleado</string>
+    <string name="appointment_saved">Cita guardada</string>
+    <string name="appointment_cancelled">Cita cancelada</string>
+    
+    <!-- Status -->
+    <string name="status_pending">Pendiente</string>
+    <string name="status_confirmed">Confirmada</string>
+    <string name="status_completed">Realizada</string>
+    <string name="status_cancelled">Cancelada</string>
+    
+    <!-- Users -->
+    <string name="users_title">Usuarios</string>
+    <string name="add_user">Agregar Usuario</string>
+    <string name="edit_user">Editar Usuario</string>
+    <string name="user_saved">Usuario guardado</string>
+    <string name="user_deleted">Usuario eliminado</string>
+    
+    <!-- Common -->
+    <string name="required_field">Campo obligatorio</string>
+    <string name="invalid_email">Correo electrónico inválido</string>
+    <string name="password_too_short">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="confirm_delete">¿Está seguro de eliminar?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    
+    <!-- Logout Dialog -->
+    <string name="logout_dialog_title">Cerrar sesión</string>
+    <string name="logout_dialog_message">¿Deseas cerrar sesión y volver a la pantalla de acceso?</string>
+
+    <!-- Client profile -->
+    <string name="client_edit_profile">Editar mis datos</string>
+    <string name="client_profile_title">Editar mis datos</string>
+    <string name="profile_name_label">Nombre</string>
+    <string name="profile_email_label">Correo electrónico</string>
+    <string name="profile_phone_label">Teléfono</string>
+    <string name="profile_password_label">Nueva contraseña</string>
+    <string name="profile_password_hint">Déjalo vacío si no quieres cambiarla</string>
+    <string name="profile_save_button">Guardar cambios</string>
+    <string name="profile_update_success">Datos actualizados correctamente</string>
+    <string name="profile_phone_invalid">El teléfono debe contener solo números</string>
+    <string name="profile_email_in_use">Ese correo ya está registrado</string>
+    <string name="client_toolbar_subtitle">Servicios Beauty Center</string>
+    <string name="client_welcome_title">Bienveni@, %1$s</string>
+    <string name="admin_toolbar_subtitle">Panel Administrador BeautyApp</string>
+    <string name="employee_toolbar_subtitle">Emplead@ Beauty Center</string>
+    <string name="employee_welcome_title">Hola %1$s</string>
+    <string name="employee_profile_title">Editar mis datos</string>
+    <string name="assigned_appointments_today">Citas asignadas hoy</string>
+    <string name="no_appointments_today">No hay citas asignadas para hoy</string>
+    <string name="manage_schedule">Gestionar agenda</string>
+    <string name="edit_appointment_status">Editar estado de cita</string>
+    <string name="appointment_status_updated">Estado de cita actualizado</string>
+    <string name="cannot_edit_completed_appointment">No se puede editar una cita realizada</string>
+    <string name="pending_appointments">Citas Pendientes</string>
+    <string name="confirmed_appointments">Citas Confirmadas</string>
+    <string name="all_my_appointments">Todas mis Citas</string>
+    <string name="no_pending_appointments">No hay citas pendientes</string>
+    <string name="no_confirmed_appointments">No hay citas confirmadas</string>
+    <string name="no_appointments_found">No se encontraron citas</string>
+    <string name="no_appointments_match_search">No se encontraron citas que coincidan con la búsqueda</string>
+    <string name="cannot_complete_future_appointment">Solo se puede marcar como realizada una cita del día actual</string>
+    <string name="appointment_info">Información de la cita</string>
+    <string name="change_status">Cambiar estado</string>
+    <string name="appointment_notes">Notas</string>
+
+    <!-- Appointments reserve -->
+    <string name="no_services_available">No hay servicios disponibles</string>
+    <string name="invalid_time_slot">Selecciona una hora válida en intervalos de 30 minutos</string>
+    <string name="invalid_schedule_range">Horario fuera del horario disponible</string>
+    <string name="appointment_conflict_error">Ya existe una cita para ese servicio en esa fecha y hora</string>
+    <string name="client_same_service_same_day_error">Ya tienes una cita de este servicio reservada para este día. Por favor, elige otro servicio o otro día.</string>
+    <string name="client_appointment_time_conflict">Ya tienes otra cita ese día a la misma hora o con menos de 30 minutos de diferencia. Por favor, elige otra hora.</string>
+</resources>
